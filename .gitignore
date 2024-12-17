@@ -1,0 +1,63 @@
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+__pycache__/
+*.so
+
+# Logs
+*.log
+*.out
+*.err
+
+# Virtual environment
+venv/
+.env/
+*.env
+
+# Scrapy cache
+.scrapy/
+requests.session
+
+# Unit test / coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+
+# macOS files
+.DS_Store
+
+# IDE/editor files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Docker files
+*.log
+*.pid
+*.gz
+*.swp
+.dockerignore
+
+# SQLite files (if using SQLite as a temporary database)
+*.sqlite3
+*.db
+
+# Node modules (if applicable)
+node_modules/
+
+# Deployment-related
+*.egg-info/
+dist/
+build/
+
+# Miscellaneous
+*.bak
+*.old
+*.tmp
+*.swp
+
+
+hotel_images/
+logs/
