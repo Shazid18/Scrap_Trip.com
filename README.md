@@ -135,18 +135,14 @@ Now it will start Scrape Data from https://uk.trip.com/hotels/?locale=en-GB&curr
     ```
 To Scrape another city's Hotel information you need to repeat the Docker `Shut` and `Start` process.
 
-<!-- ### Running the tests:
-- You can run the tests using the main.py script. This script will automatically:
-     - Set up the Selenium WebDriver.
-     - Run the tests for h1 tag existence, html tag sequence, image alt attribute validation, URLs check, currency filter, and data extraction.
-     - Store the results in an Excel report.
+### Running the tests:
+- You can run the tests and see code covarage by using these commands:
 
      To run the tests, execute:
      ```bash
-     python main.py 
+     coverage run -m unittest discover tests
      ```
-### Test Results:
-- The results are stored in `automation_report.xlsx`. Each test writes its results to a separate sheet in the same Excel file. The file will include detailed information about each test, such as the tested page url, test case name, pass/fail status and comments.
-
-### Scrape data from Script data: 
-- Extracts important information such as Site URL, Campaign ID, SiteName, Browser, CountryCode and IP from the page and stored those information in `script_data.xlsx` file. -->
+     To see the tests coverage, execute:
+     ```bash
+     coverage report
+     ```
