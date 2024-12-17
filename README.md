@@ -8,7 +8,6 @@
   4. [Getting Started](#getting-started)
      - [Dependencies](#dependencies)
      - [Installation](#installation)
-  6. [Test](#running-the-tests)
 
 ## Project Overview
 
@@ -134,15 +133,3 @@ Now it will start Scrape Data from https://uk.trip.com/hotels/?locale=en-GB&curr
     docker-compose up
     ```
 To Scrape another city's Hotel information you need to repeat the Docker `Shut` and `Start` process.
-
-## Running the tests:
-- You can run the tests and see code covarage by using these commands:
-
-     To run the tests, execute:
-     ```bash
-     coverage run -m unittest discover tests
-     ```
-     To see the tests coverage, execute:
-     ```bash
-     coverage report
-     ```
