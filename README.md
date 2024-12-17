@@ -135,7 +135,7 @@ Now it will start Scrape Data from https://uk.trip.com/hotels/?locale=en-GB&curr
     ```
 To Scrape another city's Hotel information you need to repeat the Docker `Shut` and `Start` process.
 
-### Running the tests:
+## Running the tests:
 - You can run the tests and see code covarage by using these commands:
 
      To run the tests, execute:
